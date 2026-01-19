@@ -106,3 +106,8 @@ Feel free to fork this repository and submit pull requests. Suggestions and feat
 
 ### ⚖️ License
 This project is licensed under the [MIT License](LICENSE).
+
+<img width="386" height="687" alt="image" src="https://github.com/user-attachments/assets/3c300f10-7b9e-4744-8d32-2ae7c3eafd77" />
+<img width="397" height="761" alt="image" src="https://github.com/user-attachments/assets/6bce1a77-336f-451b-bd9b-16f1f2662f8a" />
+
+
