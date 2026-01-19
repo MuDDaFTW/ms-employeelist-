@@ -1,5 +1,5 @@
 ms-employeelist 🎧
-A Sleek, Tactical Online Employee List UI for FiveM (QBCore & ESX)
+A Sleek, Tactical Online Employee List UI for FiveM (QBCore & ESX) Qbox support added!
 
 ms-employeelist is a modern, performance-optimized UI replacement for standard job lists. Designed with a futuristic/tactical aesthetic, it allows police, EMS, and other whitelist jobs to view online colleagues, radio channels, and duty status in real-time.
 
@@ -37,7 +37,13 @@ Keyboard Support: Use Arrow Keys to fine-tune Scale and Opacity sliders.
 ⚡ Optimized Performance: Runs at 0.00ms idle. Only consumes resources when the UI is actually open.
 
 📷 Preview
-(Add your screenshots or GIFs here)
+
+<img width="386" height="687" alt="image" src="https://github.com/user-attachments/assets/3c300f10-7b9e-4744-8d32-2ae7c3eafd77" />
+<img width="397" height="761" alt="image" src="https://github.com/user-attachments/assets/6bce1a77-336f-451b-bd9b-16f1f2662f8a" />
+<img width="390" height="742" alt="image" src="https://github.com/user-attachments/assets/06cdf719-7463-449a-adeb-cfc504696325" />
+<img width="390" height="691" alt="image" src="https://github.com/user-attachments/assets/544adb65-3d96-4afa-9925-3385790426fd" />
+
+
 
 📥 Installation
 Download the ms-employeelist folder.
@@ -48,7 +54,7 @@ Add ensure ms-employeelist to your server.cfg.
 
 Dependencies:
 
-qb-core OR es_extended (Legacy or latest)
+qb-core, Qbox OR es_extended (Legacy or latest)
 
 pma-voice (For radio channel syncing)
 
