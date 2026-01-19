@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <div id="app" style="display: none;">
+        
+        <div id="ui-wrapper">
+            
+            <div class="settings-panel" id="settings-panel">
+                <div class="setting-group status-group">
+                    <label>MY STATUS</label>
+                    <div class="status-buttons">
+                        <button id="btn-active" class="st-btn active-selected" onclick="setStatus('active')">ACTIVE</button>
+                        <button id="btn-break" class="st-btn" onclick="setStatus('break')">BREAK</button>
+                    </div>
+                </div>
+
+                <div class="setting-group slider-group">
+                    <label>OPACITY</label>
+                    <input type="range" id="opacity-slider" min="0.2" max="1.0" step="0.01" value="1.0">
+                </div>
+                <div class="setting-group slider-group">
+                    <label>SCALE</label>
+                    <input type="range" id="scale-slider" min="0.5" max="1.5" step="0.01" value="1.0">
+                </div>
+                <button id="confirm-btn" class="confirm-btn">✔</button>
+            </div>
+
+            <div class="container">
+                <div class="header">
+                    <div class="icon-title">
+                        <span class="headset-icon">🎧</span>
+                        <span class="title-text">EMPLOYEE LIST | <span id="job-name">POLICE</span></span>
+                    </div>
+                    <div class="status-light"></div>
+                </div>
+
+                <div class="table-header">
+                    <div class="col col-callsign">CALL SIGN</div>
+                    <div class="col col-name">NAME</div>
+                    <div class="col col-radio">RADIO</div>
+                    <div class="col col-status">STATUS</div>
+                </div>
+
+                <div class="employee-list" id="employee-list"></div>
+
+                <div class="footer">
+                    SERVER: LS-LIFE | Last Sync: <span id="time">00:00:00</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
